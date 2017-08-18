@@ -1,0 +1,42 @@
+.blackStroke, .media-heading {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.title-page .blackStroke {
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+.text-red {
+    color: #ba0025;
+}
+
+.profile {
+    width: 147px;
+    height: 130px;
+    margin-bottom: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.home-logo {
+    display: block;
+    margin: auto;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0px !important;
+}
+
+.section .title-line { padding: 10px 0; }
+.section .title-line:before { background: black; content: ""; display: block; height: 2px; margin: 0 auto; width: 220px; }
+.section .title-line:after { background: black; content: ""; display: block; height: 6px; position: relative; top: -6px; margin: 0 auto;  width: 80px; }
